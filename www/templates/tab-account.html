@@ -1,0 +1,41 @@
+<ion-view title="Account">
+  <ion-content class="padding">
+    <h1>{{username}}</h1>
+    <div class="list">
+
+	  <a class="item item-icon-left" href="#">
+	    <i class="icon ion-ios7-paper-outline"></i>
+	    {{user.fullname}}
+	  </a>
+
+	  <a class="item item-icon-left" href="#">
+	    <i class="icon ion-map"></i>
+	    {{user.location}}
+	  </a>
+
+	  <a class="item item-icon-left" href="#">
+	    <i class="icon ion-calendar"></i>
+	    {{user.dob}}
+	    <span class="item-note">
+	      Edad
+	    </span>
+	  </a>
+
+	  <a class="item item-icon-left" href="#">
+	    <i class="icon ion-person-stalker"></i>
+	    {{user.gender}}
+	  </a>
+
+	  <a class="item item-icon-left" href="#">
+	    <i class="icon ion-heart"></i>
+	    {{user.marital}}
+	  </a>
+
+	  <a class="item item-icon-left" href="#">
+	    <i class="icon ion-at"></i>
+	    {{email}}
+	  </a>
+
+	</div>
+  </ion-content>
+</ion-view>
